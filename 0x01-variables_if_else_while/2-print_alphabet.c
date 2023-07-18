@@ -9,11 +9,11 @@
 
 int main(void)
 {
-int lowercase = 'a';
+int lowerCase = 'a';
 while (lowerCase <= 'z')
 {
 putchar (lowerCase);
-lowercase += 1;
+lowerCase += 1;
 }
 putchar ('\n');
 return (0);
