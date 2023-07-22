@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**print_numbers - print 0 - 9
- * Return: void
+ * Return: 0
  */
 
-voin print_numbers(void)
+void print_number(void)
 {
 	char c;
 	for (c = '0'; c <= '9'; c++)
