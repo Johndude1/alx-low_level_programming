@@ -1,14 +1,13 @@
 #include "main.h"
 /**
-* _strncat - concatenate two strings
-* using at most n bytes from src
+* _strncpy - copy a string
 * @dest: input value
 * @src: input value
 * @n: input value
 * Return: dest
 */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int j;
 
