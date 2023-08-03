@@ -1,14 +1,17 @@
 #include "main.h"
 /**
- * _puts_recursion - prints a string
- * @s: string to be printed
- * Return: 0 success
- */
+*_puts_recursion - function like puts()
+*@s:input
+* Return: 0 success
+*/
 
 void _puts_recursion(char *s)
 {
-	char str[] = "people";
-
-	_putchar("%s\n", str);
-	return (0);
+	if (*s)
+	{
+	_putchar(*s);
+	_puts_recursion(s + 1);
+	}
+	else
+		_putchar('\n');
 }
