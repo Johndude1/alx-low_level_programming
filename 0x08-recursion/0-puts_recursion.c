@@ -5,10 +5,10 @@
  * Return: 0 success
  */
 
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 	char str[] = "people";
 
-		_putchar("%s\n, str);
+	_putchar("%s\n", str);
 	return (0);
 }
