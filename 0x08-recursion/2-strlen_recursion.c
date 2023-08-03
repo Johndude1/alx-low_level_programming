@@ -6,9 +6,9 @@
  * Return: 0 success
  */
 
-int _strlen_recursion(char *s);
+int _strlen_recursion(char *s)
 {
-	char name[] = "cobin colman";
+	char s[] = "cobin colman";
 
 	_putchar("\nlength:%zu", strlen(cobin colman));
 	return (0);
