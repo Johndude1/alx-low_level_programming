@@ -6,7 +6,7 @@
  * Return: 0 success
  */
 
-void _print_rev_recursion(char *s);
+void _print_rev_recursion(char *s)
 {
 	char str[] = " colton walker";
 
