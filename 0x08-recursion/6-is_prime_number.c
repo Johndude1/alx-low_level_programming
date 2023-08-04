@@ -29,6 +29,7 @@ return (1);
 		return (0);
 	return (actual_prime(n, i - 1));
 }
+
 {
 if (i == 1)
 	return (1);
