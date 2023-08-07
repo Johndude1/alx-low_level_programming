@@ -1,4 +1,4 @@
-#imclude "main.h"
+#include "main.h"
 
 /**
  * main - prints the name of program
@@ -6,8 +6,8 @@
  * @argv: array of arguments
  * Return: always 0 (success)
  */
+   int main(int argc_attribute_((used)), char *argv[])
 
-int main(int argc_attribute, char *argv[])
 {
 	printf("%s\n", *argv);
 	return (0);
