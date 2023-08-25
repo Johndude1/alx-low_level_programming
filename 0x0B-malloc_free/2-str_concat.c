@@ -18,9 +18,9 @@ int i, ci;
 		s1 = "";
 
 	if (s2 == NULL)
-		
+
 		s2 = "";
-		
+
 	ci = i = 0;
 	while (s1[i] != '\0')
 		i++;
