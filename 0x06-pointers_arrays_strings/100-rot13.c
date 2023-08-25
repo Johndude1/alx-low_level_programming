@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*root13 - encider rot13
+*rot13 - encider rot13
 *@s: pointer to string params
 *Return: *s
 */
@@ -21,7 +21,7 @@ char *rot13(char *s)
 			{
 				if (s[i] == data1[j])
 				{
-					s[i] = dataroot[j];
+					s[i] = datarot[j];
 					break;
 				}
 			}
