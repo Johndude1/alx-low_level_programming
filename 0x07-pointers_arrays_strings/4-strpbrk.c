@@ -1,24 +1,23 @@
 #include "main.h"
 /**
- * _strpbrk - searches a string for any of a set of bytes.
- * @s: The string to be searched
- * @accept: the set of bytes to be searched for
- * Return: if a set is matched - a pointer to the matched byte.
- * if no set is matched - NULL
- */
-
+* _strpbrk - Entry point
+* @s: input
+* @accept: input
+* Return: Always 0 (Success)
+*/
 char *_strpbrk(char *s, char *accept)
 {
-		int index;
+	int k;
 
-		while (*s)		
+	while (*s)
+	{
+	for (k = 0; accept[k]; k++)
 		{
-for (index = 0; accept[index]; index++)
-{
-	if (*s == accept[index])
-return (s);
+		if (*s == accept[k])
+		return (s);
 		}
-		s++;
+	s++;
+	}
+	return ('\0');
 }
-return ('\0');
-}
+
