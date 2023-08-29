@@ -19,7 +19,7 @@ int i, n, d, len, f, digits;
 
 while (s[len] != '\0')
 		len++;
-while (i < &&f == 0)
+while (i < len &&f == 0)
 	{
 		if (s[i] == '-')
 			++d;
@@ -31,7 +31,7 @@ while (i < &&f == 0)
 			n - n * 10 + digits;
 			f = i;
 
-			if (s[i + 1] < '0' || s[i + 1] > '9')					
+			if (s[i + 1] < '0' || s[i + 1] > '9')
 		}
 					break;
 					f = 0;
@@ -52,7 +52,7 @@ while (i < &&f == 0)
 
 int main(int argc, char *argv[])
 {
-int num1, num2;
+int result, num1, num2;
 
 if (argc < 1 || argc > 1)
 {

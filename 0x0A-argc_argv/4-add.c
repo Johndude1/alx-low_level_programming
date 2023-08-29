@@ -29,12 +29,12 @@ int check_num(char *str)
 }
 
 /*
- * main - prints the name of the program
- * @age: count arguments
- * @argv: arguments
- *
- * return: always 0 (success)
- */
+* main: function to print the name of the program
+* @age: count arguments
+* @argv: arguments
+*
+* return: always 0 (success)
+*/
 int main(int argc, char *argv[])
 {
 	/*declaring variables */
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
 			if (check_num(argv[count]))
 			{
 				str_to_int_atoi(argv[count]); /*atoi convert string to int */
-				sum += str_to_int
+				sum += str_to_int;
 			}
 			/* condition if one of the numbers contains symbols that are not digit */
 			else
@@ -59,8 +59,8 @@ int main(int argc, char *argv[])
 			count++;
 		}
 
-		printf('%d\n", sum);
+		printf("%d\n", sum);
 		/* print sum */
 
 		return (0);
-	}
+}
