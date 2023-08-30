@@ -6,7 +6,7 @@
  * @d: pointer to struct dog to initializes
  * @name: name to initialize
  * @age: age to initialize
- * struct_dog_ my dog
+ * struct
  * @owner: owner to initialize
  */
 
